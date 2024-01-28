@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+ 
+  <div class="layer  justify-content-center align-items-center ">
+
+    <span class="loader"></span>
+  </div>
+
+
+    <section class="home d-flex justify-content-center align-items-center text-white">
+       
+        <div class="nav2  "id="nav2">
+          
+          <div class="  linkoo">
+
+            <ul class="">
+<li><a href="#" id="sear">Search</a></li>
+<li><a href="#" id="Categories">Categories</a></li>
+<li><a href="#" id="area1">Area</a></li>
+<li><a href="#" id="ingred">Ingredients</a></li>
+<li><a href="#" id="contact">Contact Us</a></li>
+
+            </ul>
+            <P  >Copyright Â© 2019 All Rights<br>
+              Reserved.</P>
+          </div>
+          
+        </div>
+
+         
+          <div class="typo  position-fixed d-flex justify-content-center">
+            <img src="./image/logo.png" >
+            <i class="fa-solid fa-bars fs-2 position-absolute" id="open"></i>
+            <i class="fa-solid fa-xmark fs-2  position-absolute left-0" id="close"></i>
+          </div>
+
+        
+          
+    </section>
+
+    <section class="searchinputs">
+    <div class="container">
+      <div class="d-flex">
+      <input class="form-control w-50 text-center m-3" placeholder="Search by Name" id="search">
+      <input class="form-control w-50 text-center m-3" placeholder="Search by Frist Letter" id="letter">
+    </div>
+    </div>
+    </section>
+
+    <section class="contactus position-relative " id="content">
+      <div class="container">
+
+        <div class="d-flex">
+        <input type="text" class="form-control w-50 text-center m-3" placeholder="Enter your name" id="nameinput">
+        
+        <input type="email"  class="form-control w-50 text-center m-3" placeholder="Enter your Email"id="emailinput" >
+
+      </div >
+
+      <div class="d-flex">
+      <P id="messg1" class=" text-center w-50 d-none text-danger">enter name</P>
+      <P id="messg2" class=" text-center w-50 d-none text-danger">Email not valid </P>
+      </div>
+
+      <div class="d-flex">
+        <input type="number" class="form-control w-50 text-center m-3" placeholder="Enter your phone"id="phoneinput" >
+        <input type="number" class="form-control w-50 text-center m-3 " placeholder="Enter your Age"id="ageinput" >
+      </div>
+      <div class="d-flex">
+        <P id="messg3" class=" text-center w-50 d-none text-danger">Enter valid Phone Number</P>
+        <P id="messg4" class=" text-center w-50 d-none text-danger ">Enter valid age</P>
+        </div>
+
+      <div class="d-flex ">
+        <input type="password" class="form-control w-50 text-center m-3 " placeholder="Enter your password" id="passwordinput">
+        <input type="password" class=" form-control w-50 text-center m-3" placeholder="Repassword"id="Repasswordinput" >
+      </div>
+
+      <div class="d-flex">
+        <P id="messg5" class=" text-center w-50 d-none text-danger" >Enter valid repassword</P>
+        <P id="messg6" class="text-danger text-center w-50  d-none ">Enter valid repassword</P>
+        </div>
+<P class="d-none text-danger" id="alert1">ALL Input required</P>
+    <button class="btn btn-outline-danger  m-auto " id="submitt">Submit</button>
+      </div>
+      </section>
+
+
+
+ 
+<div class="container">
+  <div class="row" id="row">
+
+  </div>
+
+ 
+ 
+</div>
+    
+
+
+
+<script src="JS/jquery-3.7.1.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/main.js"></script>
+</body>
+</html>
